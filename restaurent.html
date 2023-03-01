@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+          <h1>Register</h1>
+          <p>Kindly fill in this form to register.</p>
+          <label for="username"><b>Username</b></label>
+          <input
+            type="text"
+            placeholder="Enter username"
+            name="username"
+            id="username"
+            required
+          />
+  
+          <label for="email"><b>Email</b></label>
+          <input
+            type="text"
+            placeholder="Enter Email"
+            name="email"
+            id="email"
+            required
+          />
+  
+          <label for="pwd"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="pwd"
+            id="pwd"
+            required
+          />
+  
+          <label for="pwd-repeat"><b>Repeat Password</b></label>
+          <input
+            type="password"
+            placeholder="Repeat Password"
+            name="pwd-repeat"
+            id="pwd-repeat"
+            required
+          />
+  
+          <button type="submit">Register</button>
+        </div>
+       <!-- wrapping the text inside the p tag with a tag for routing to the login page URL-->
+        <!-- the # must ideally be replaced by the login page URL -->
+        <div>
+          <p>Already have an account? <a href="#">Log in</a>.</p>
+        </div>
+      </form>
+  
+</body>
+</html>
